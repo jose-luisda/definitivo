@@ -1,0 +1,211 @@
+.navl{
+    background-color: #D32F2F;
+}
+.uk-navbar-center span{
+    font-size: medium;
+}
+.buscaprodutos{
+
+}
+.botaocliente{
+    border: none;
+    color: white;
+}
+.botaomobla{
+    color: white;
+}
+.menu{
+    box-shadow: none;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+}
+.descricaoslade{
+    background-color: white;
+    border-radius: 5%;
+    color: black;
+}
+.setaslade{
+    color: black;
+}
+.compracliente{
+    background-color: green;
+    color: white;
+}
+.adicinacliente{
+    background-color: #D32F2F;
+    color: white;
+}
+.chat{
+    background-color: #D32F2F;
+    color: white;
+    border-radius: 100%;
+    padding: 1em;
+    
+}
+.menubutton{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.categorialista{
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+}
+.carrinhoconteiner{
+    background-color: white;
+    color: black;
+}
+.carrinhoconteiner h3{
+    color: black;
+}
+.excluircarrinho,.preco{
+    color: #D32F2F;
+}
+.title-login{
+    background-color: #D32F2F;
+    color: #fff;
+}
+.totalcompra{
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.caminho{
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+    /* border-top: solid rgba(0, 0, 0, 0.1) 1px; */
+}
+.menubutton{
+    border-top: rgba(0, 0, 0, 0.1) solid 1px;
+}
+.produtos{
+    box-shadow: none;
+}
+.msj{
+    float: left;
+    background-color: white;
+}
+.msj::before{
+    width: 0;
+    height: 0;
+    content: ' ';
+    top: -5px;
+    left: -14px;
+    position: relative;
+    border-style: solid;
+    border-width: 0 13px 13px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.macro{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+}
+.chat-conteiner{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.circle{
+    border-radius: 100%;
+}
+.avatar{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 10%;
+    float: left;
+    padding: 0px;
+    
+}
+.text-l{
+    float: left;
+    padding-right: 10px;
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.text > p:first-of-type{
+    width:100%;
+    margin-top:0;
+    margin-bottom:auto;
+    line-height: 13px;
+    font-size: 12px;
+}
+.text > p:last-of-type{
+      text-align:right;color:silver;margin-bottom:-7px;margin-top:auto;
+}
+.msj-rta{
+    float:left;background:whitesmoke;
+}
+.msj-rta:after{
+    width: 0;
+    height: 0;
+    content:"";
+    top:-5px;
+    left:14px;
+    position:relative;
+    border-style: solid;
+    border-width: 13px 13px 0 0;
+    border-color: whitesmoke transparent transparent transparent;           
+}
+.pagamento{
+    text-align: right;
+}
+.esquerda{
+    float: left;
+}
+.classSelecionar{
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+.fontechat{
+    font-size: medium;
+    padding-right: 20px;
+}
+.titlehitorico{
+    font-size: medium;
+    background-color: #D32F2F;
+    padding: 0.5em;
+    color: #fff;
+} 
+.checkout-group .checkout-panel {
+    color: #646464;
+    font-size: 14px;
+}
+.checkout-panel-title {
+    background: #f0f0f0;
+    margin: -10px -20px 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #646464;
+}
+.checkout-panel {
+    flex: 1 1 30%;
+    min-width: 30%;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.checkout-group .checkout-panel a {
+    border-radius: 4px;
+    background-color: #D32F2F;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .35);
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.checkout-group .checkout-panel:nth-child(5)>ul.list-group.checkout-list>li:nth-child(1) {
+    color: #00376b;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.checkout-panel .list-group .item-price {
+    font-size: 18px;
+    color: #7dbaf3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
